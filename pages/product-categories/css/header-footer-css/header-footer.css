@@ -1,0 +1,407 @@
+
+
+/* header section  */
+
+header {
+    top: 0px;
+    position: sticky;
+}
+
+
+.navbar-start {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.first-navbar {
+    background-color: rgb(145, 34, 248);
+}
+
+.navbar-brand {
+    font-family: 'Monoton', cursive;
+}
+
+.navbar-brand:hover {
+    background-color: rgba(255, 255, 255, 0.178);
+}
+
+.navbar-login-icon:hover {
+    color: rgb(4, 240, 94);
+}
+
+.navbar-search-btn:hover,
+.navbar-login-btn:hover {
+    background-color: rgb(4, 240, 94);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.829);
+}
+
+.dropdown-item:hover {
+    background-color: rgb(145, 34, 248);
+}
+
+.second-navbar {
+    background-color: rgb(4, 240, 94);
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+}
+
+/* header section  */
+
+
+
+/* footer section  */
+
+.container-footer {
+    color: rgb(21, 255, 0);
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.footer-link-head {
+    color: rgb(21, 255, 0);
+    text-decoration: none;
+}
+
+.footer-sub-link {
+    color: rgb(145, 34, 248);
+    text-decoration: none;
+}
+
+/* footer section  */
+
+
+
+
+
+/* media query for responsive header  */
+
+@media screen and (min-width: 1265px) {
+
+
+    .navbar-brand {
+        font-size: 2.5rem;
+        border: 5px double rgb(4, 240, 94);
+        border-width: 5px;
+    }
+
+
+    .navbar-brand:hover {
+        font-size: 3rem;
+    }
+
+    .navbar-search-box {
+        width: 40rem;
+        border-bottom-left-radius: 25px;
+        border: 2px double rgb(4, 240, 94);
+        border-width: 5px;
+        font-size: 1.5rem;
+    }
+
+    .navbar-search-btn {
+        font-size: 1.5rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+        border-top-right-radius: 25px;
+    }
+
+
+
+    .first-navbar-2nd-box {
+        height: 3.5rem;
+        font-size: 1.5rem;
+    }
+
+    .navbar-login-btn {
+        font-size: 1.5rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+    }
+
+    .navbar-login-icon {
+        font-size: 3rem;
+        color: black;
+    }
+
+    .second-navbar {
+        font-size: 1.5rem;
+    }
+
+    .dropdown-item {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1265px) and (min-width: 767px) {
+
+    .navbar-brand {
+        font-size: 2rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+    }
+
+    .navbar-brand:hover {
+        font-size: 2.5rem;
+    }
+
+
+    .navbar-search-box {
+        width: 15rem;
+        border-bottom-left-radius: 20px;
+        border: 1.5px double rgb(4, 240, 94);
+        border-width: 5px;
+        font-size: 1.3rem;
+    }
+
+    .navbar-search-btn {
+        font-size: 1.3rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+        border-top-right-radius: 25px;
+    }
+
+
+    .first-navbar-2nd-box {
+        height: 3.5rem;
+        font-size: 1.3rem;
+    }
+
+    .navbar-login-btn {
+        font-size: 1.3rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+    }
+
+    .navbar-login-icon {
+        font-size: 3rem;
+        color: black;
+    }
+
+    .second-navbar {
+        font-size: 1.3rem;
+    }
+
+
+    .container-home-center-img {
+        height: 60vh;
+    }
+
+
+    .container-home-logo {
+        display: flex;
+        width: 55rem;
+        height: 30rem;
+        align-items: center;
+        justify-content: center;
+        background-image: radial-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0));
+    }
+
+    .container-home-logo-span {
+        font-family: 'Monoton', cursive;
+        color: rgb(145, 34, 248);
+        font-size: 3.8rem;
+        border: 10px double rgb(4, 240, 94);
+        background-color: rgba(0, 0, 0, 0.267);
+        padding: 10px;
+    }
+
+
+    .container-home-logo-span:hover {
+        font-size: 4.5rem;
+        background-color: rgba(0, 0, 0, 0.329);
+    }
+}
+
+@media screen and (max-width:958px) and (min-width:767px) {
+    .container-home-center-img {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 799px) and (min-width: 767px) {
+    .navbar-search-box {
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 306px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+        border: 2px double rgb(4, 240, 94);
+        border-width: 5px;
+        margin-bottom: 5px;
+    }
+
+    .navbar-brand:hover {
+        font-size: 1.7rem;
+    }
+
+
+    .navbar-search-box {
+        border-bottom-left-radius: 15px;
+        border: 1.5px double rgb(4, 240, 94);
+        border-width: 5px;
+    }
+
+    .navbar-search-btn {
+        font-size: 1rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+        border-top-right-radius: 15px;
+    }
+
+    .first-navbar-2nd-box {
+        font-size: 1rem;
+    }
+
+    .navbar-login-btn {
+        font-size: 1rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+        margin-top: 5px;
+    }
+
+
+    .navbar-login-icon {
+        font-size: 1.7rem;
+        color: black;
+        margin-top: 5px;
+    }
+
+    .container-home-center-img {
+        height: 40vh;
+    }
+
+
+    .container-home-logo {
+        display: flex;
+        width: 45rem;
+        height: 20rem;
+        align-items: center;
+        justify-content: center;
+        background-image: radial-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0));
+    }
+
+    .container-home-logo-span {
+        font-family: 'Monoton', cursive;
+        color: rgb(145, 34, 248);
+        font-size: 2rem;
+        border: 8px double rgb(4, 240, 94);
+        background-color: rgba(0, 0, 0, 0.267);
+        padding: 10px;
+    }
+
+
+    .container-home-logo-span:hover {
+        font-size: 2.4rem;
+        background-color: rgba(0, 0, 0, 0.329);
+    }
+
+}
+
+@media screen and (max-width: 424px) {
+    .container-home-center-img {
+        height: 35vh;
+    }
+
+
+    .container-home-logo {
+        display: flex;
+        width: 30rem;
+        height: 15rem;
+        align-items: center;
+        justify-content: center;
+        background-image: radial-gradient(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.082), rgba(0, 0, 0, 0.048), rgba(0, 0, 0, 0));
+    }
+
+    .container-home-logo-span {
+        font-family: 'Monoton', cursive;
+        color: rgb(145, 34, 248);
+        font-size: 1rem;
+        border: 5px double rgb(4, 240, 94);
+        background-color: rgba(0, 0, 0, 0.267);
+        padding: 8px;
+    }
+
+
+    .container-home-logo-span:hover {
+        font-size: 1.3rem;
+        background-color: rgba(0, 0, 0, 0.329);
+    }
+}
+
+@media screen and (max-width: 306px) {
+
+    .navbar-brand {
+        font-size: 1rem;
+        margin-bottom: 7px;
+        border: 2px double rgb(4, 240, 94);
+        border-width: 5px;
+    }
+
+    .navbar-brand:hover {
+        font-size: 1.3rem;
+    }
+
+
+    .navbar-search-box {
+        border-bottom-left-radius: 13px;
+        border: 1.5px double rgb(4, 240, 94);
+        border-width: 5px;
+    }
+
+    .navbar-search-btn {
+        font-size: 1rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+        border-top-right-radius: 15px;
+    }
+
+    .first-navbar-2nd-box {
+        font-size: 1rem;
+        height: 2.5rem;
+    }
+
+    .navbar-login-btn {
+        font-size: 1rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+        margin-top: 5px;
+    }
+
+
+    .navbar-login-icon {
+        font-size: 1.7rem;
+        color: black;
+        margin-top: 5px;
+    }
+
+}
+
+/* media query for responsive header  */
+
+
+
+/* media query for responsive footer  */
+
+@media screen and (max-width: 768px) and (min-width: 332px) {
+    .container-footer{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 332px){
+    .container-footer{
+        font-size: 0.6rem;
+    }
+
+    .footer-link-head{
+        font-size: 0.9rem;
+    }
+}

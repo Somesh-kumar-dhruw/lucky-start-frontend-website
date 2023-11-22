@@ -1,0 +1,159 @@
+
+
+
+body{
+    background-color: rgb(232, 232, 232);
+}
+
+
+.contact-form-box{
+    padding: 5% 0;
+    font-size: 1.2rem;
+}
+
+.row.single-form-box{
+    box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.left-form-box{
+    background: url(./contact-us-img/contact-us-img1.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.right-form-box h2{
+    font-family: poppins;
+    color: rgb(255, 255, 255);;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+
+
+.right-form-box h2 span{
+    font-weight: 500;
+}
+
+.right-form-box{
+    padding: 25px 100px 50px 100px;
+    position: relative;
+    background-color: blueviolet;;
+}
+
+.right-form-box button{
+    border: 2px double rgb(74, 248, 83);
+    border-width: 5px;
+    font-size: 1.2rem;
+}
+
+
+.right-form-box button:hover{
+    background-color: #4af853;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 992px) and (min-width: 707px){
+
+    .left-form-box{
+        height: 20rem;
+    }
+
+    .contact-form-box{
+        font-size: 1rem;
+    }
+
+    .right-form-box h2{
+        font-size: 2rem;
+    }
+
+    .right-form-box{
+        height: 28rem;
+        padding: 2rem;
+    }
+
+    .right-form-box button{
+        font-size: 1rem;
+    }
+
+}
+
+
+@media screen and (max-width: 707px) and (min-width: 678px) {
+    
+    .left-form-box{
+        height: 15rem;
+    }
+
+    .contact-form-box{
+        font-size: 1rem;
+    }
+
+    .right-form-box h2{
+        font-size: 1.8rem;
+    }
+
+    .right-form-box{
+        height: 28rem;
+        padding: 2rem;
+    }
+
+    .right-form-box button{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 678px) and (min-width: 404px) {
+    
+    .left-form-box{
+        height: 15rem;
+    }
+
+    .contact-form-box{
+        font-size: 1rem;
+    }
+
+    .right-form-box h2{
+        font-size: 1.6rem;
+    }
+
+    .right-form-box{
+        height: 27rem;
+        padding: 1.5rem;
+    }
+
+    .right-form-box button{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 404px) {
+    
+    .left-form-box{
+        height: 12rem;
+    }
+
+    .contact-form-box{
+        font-size: 0.9rem;
+    }
+
+    .right-form-box h2{
+        font-size: 1.4rem;
+    }
+
+    .right-form-box{
+        height: 26rem;
+        padding: 1rem;
+    }
+
+    .right-form-box button{
+        font-size: 0.9rem;
+    }
+}

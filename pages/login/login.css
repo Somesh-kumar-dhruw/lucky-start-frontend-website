@@ -1,0 +1,106 @@
+
+
+
+
+@media screen and (min-width: 768px) {
+    .card-body {
+        border-radius: 0 1rem 1rem 0;
+        padding: 3rem;
+        height: 60vh;
+    }
+
+    .contact-form-icon {
+        font-size: 2.5rem;
+    }
+
+    .contact-form-head {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-left: 1rem;
+    }
+
+    .contact-form-head-sub {
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .contact-form-btn {
+        font-size: 1.3rem;
+    }
+
+
+    .card-body form div {
+        margin-bottom: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .card-body {
+        border-radius: 1rem;
+        padding: 3rem;
+    }
+
+    .contact-form-icon {
+        font-size: 2.5rem;
+    }
+
+    .contact-form-head {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-left: 1rem;
+    }
+
+    .contact-form-head-sub {
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .contact-form-btn {
+        font-size: 1.3rem;
+    }
+
+
+    .card-body form div {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 406px) {
+
+
+    .card-body {
+        border-radius: 1rem;
+        padding: 2rem;
+        height: 60vh;
+        font-size: 0.9rem;
+    }
+
+    .contact-form-icon {
+        font-size: 1.9rem;
+    }
+
+    .contact-form-head {
+        font-size: 1.9rem;
+        font-weight: 600;
+        margin-left: 0.5rem;
+    }
+
+    .contact-form-head-sub {
+        letter-spacing: 1px;
+        margin-bottom: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .contact-form-btn {
+        font-size: 0.9rem;
+    }
+
+
+    .card-body form div {
+        margin-bottom: 0.5rem;
+    }
+}

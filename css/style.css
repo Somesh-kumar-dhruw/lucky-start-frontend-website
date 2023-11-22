@@ -1,0 +1,805 @@
+
+
+/* header section  */
+
+header {
+    top: 0px;
+    position: sticky;
+}
+
+
+.navbar-start {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.first-navbar {
+    background-color: rgb(145, 34, 248);
+}
+
+.navbar-brand {
+    font-family: 'Monoton', cursive;
+}
+
+.navbar-brand:hover {
+    background-color: rgba(255, 255, 255, 0.178);
+}
+
+.navbar-login-icon:hover {
+    color: rgb(4, 240, 94);
+}
+
+.navbar-search-btn:hover,
+.navbar-login-btn:hover {
+    background-color: rgb(4, 240, 94);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.829);
+}
+
+.dropdown-item:hover {
+    background-color: rgb(145, 34, 248);
+}
+
+.second-navbar {
+    background-color: rgb(4, 240, 94);
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+}
+
+/* header section  */
+
+
+/* center image section  */
+
+.container-home-center-img {
+    background: url(../img/main_page_img/main_page_center/home-background4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 80vh;
+}
+
+
+.container-home-logo {
+    display: flex;
+    width: 80rem;
+    height: 40rem;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0));
+}
+
+.container-home-logo-span {
+    font-family: 'Monoton', cursive;
+    color: rgb(145, 34, 248);
+    font-size: 6rem;
+    border: 10px double rgb(4, 240, 94);
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 10px;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-home-logo-span:hover {
+    font-size: 8rem;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+/* center image section  */
+
+
+/* carousel section  */
+
+.carousel-body {
+    background-color: rgb(4, 240, 94);
+}
+
+.carousel-inner-head {
+    background-color: rgb(145, 34, 248);
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card-body {
+    background-color: black;
+    color: rgb(21, 255, 0);
+}
+
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0;
+}
+
+.card-img-top {
+    height: 25rem;
+}
+
+.card-title {
+    color: rgb(145, 34, 248);
+    font-size: 1.7rem;
+    border: 3px double ;
+    padding: 0.4rem 0;
+    border-radius: 0.2rem;
+}
+
+.card-title:hover{
+    background-color: rgb(145, 34, 248);
+    border-color: rgb(145, 34, 248);
+    color: white;
+}
+
+.star {
+    color: yellow;
+}
+
+.card-cart-btn {
+    border: 2px double rgb(145, 34, 248);
+    color: rgb(145, 34, 248);
+    border-width: 3px;
+    font-weight: bold;
+}
+
+
+.card-cart-btn:hover {
+    background-color: rgb(145, 34, 248);
+    color: white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgb(145, 34, 248);
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 6rem;
+}
+
+/* carousel section  */
+
+
+/* footer section  */
+
+.container-footer {
+    color: rgb(21, 255, 0);
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.footer-link-head {
+    color: rgb(21, 255, 0);
+    text-decoration: none;
+}
+
+.footer-sub-link {
+    color: rgb(145, 34, 248);
+    text-decoration: none;
+}
+
+/* footer section  */
+
+
+
+/* media query for responsive header  */
+
+@media screen and (min-width: 1265px) {
+
+
+    .navbar-brand {
+        font-size: 2.5rem;
+        border: 5px double rgb(4, 240, 94);
+        border-width: 5px;
+    }
+
+
+    .navbar-brand:hover {
+        font-size: 3rem;
+    }
+
+    .navbar-search-box {
+        width: 40rem;
+        border-bottom-left-radius: 25px;
+        border: 2px double rgb(4, 240, 94);
+        border-width: 5px;
+        font-size: 1.5rem;
+    }
+
+    .navbar-search-btn {
+        font-size: 1.5rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+        border-top-right-radius: 25px;
+    }
+
+
+
+    .first-navbar-2nd-box {
+        height: 3.5rem;
+        font-size: 1.5rem;
+    }
+
+    .navbar-login-btn {
+        font-size: 1.5rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+    }
+
+    .navbar-login-icon {
+        font-size: 3rem;
+        color: black;
+    }
+
+    .second-navbar {
+        font-size: 1.5rem;
+    }
+
+    .dropdown-item {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1265px) and (min-width: 767px) {
+
+    .navbar-brand {
+        font-size: 2rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+    }
+
+    .navbar-brand:hover {
+        font-size: 2.5rem;
+    }
+
+
+    .navbar-search-box {
+        width: 15rem;
+        border-bottom-left-radius: 20px;
+        border: 1.5px double rgb(4, 240, 94);
+        border-width: 5px;
+        font-size: 1.3rem;
+    }
+
+    .navbar-search-btn {
+        font-size: 1.3rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+        border-top-right-radius: 25px;
+    }
+
+
+    .first-navbar-2nd-box {
+        height: 3.5rem;
+        font-size: 1.3rem;
+    }
+
+    .navbar-login-btn {
+        font-size: 1.3rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+    }
+
+    .navbar-login-icon {
+        font-size: 3rem;
+        color: black;
+    }
+
+    .second-navbar {
+        font-size: 1.3rem;
+    }
+
+
+    .container-home-center-img {
+        height: 60vh;
+    }
+
+
+    .container-home-logo {
+        display: flex;
+        width: 55rem;
+        height: 30rem;
+        align-items: center;
+        justify-content: center;
+        background-image: radial-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0));
+    }
+
+    .container-home-logo-span {
+        font-family: 'Monoton', cursive;
+        color: rgb(145, 34, 248);
+        font-size: 3.8rem;
+        border: 10px double rgb(4, 240, 94);
+        background-color: rgba(0, 0, 0, 0.267);
+        padding: 10px;
+    }
+
+
+    .container-home-logo-span:hover {
+        font-size: 4.5rem;
+        background-color: rgba(0, 0, 0, 0.329);
+    }
+}
+
+@media screen and (max-width:958px) and (min-width:767px) {
+    .container-home-center-img {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 799px) and (min-width: 767px) {
+    .navbar-search-box {
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 306px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+        border: 2px double rgb(4, 240, 94);
+        border-width: 5px;
+        margin-bottom: 5px;
+    }
+
+    .navbar-brand:hover {
+        font-size: 1.7rem;
+    }
+
+
+    .navbar-search-box {
+        border-bottom-left-radius: 15px;
+        border: 1.5px double rgb(4, 240, 94);
+        border-width: 5px;
+    }
+
+    .navbar-search-btn {
+        font-size: 1rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+        border-top-right-radius: 15px;
+    }
+
+    .first-navbar-2nd-box {
+        font-size: 1rem;
+    }
+
+    .navbar-login-btn {
+        font-size: 1rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+        margin-top: 5px;
+    }
+
+
+    .navbar-login-icon {
+        font-size: 1.7rem;
+        color: black;
+        margin-top: 5px;
+    }
+
+    .container-home-center-img {
+        height: 40vh;
+    }
+
+
+    .container-home-logo {
+        display: flex;
+        width: 45rem;
+        height: 20rem;
+        align-items: center;
+        justify-content: center;
+        background-image: radial-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0));
+    }
+
+    .container-home-logo-span {
+        font-family: 'Monoton', cursive;
+        color: rgb(145, 34, 248);
+        font-size: 2rem;
+        border: 8px double rgb(4, 240, 94);
+        background-color: rgba(0, 0, 0, 0.267);
+        padding: 10px;
+    }
+
+
+    .container-home-logo-span:hover {
+        font-size: 2.4rem;
+        background-color: rgba(0, 0, 0, 0.329);
+    }
+
+}
+
+@media screen and (max-width: 424px) {
+    .container-home-center-img {
+        height: 35vh;
+    }
+
+
+    .container-home-logo {
+        display: flex;
+        width: 30rem;
+        height: 15rem;
+        align-items: center;
+        justify-content: center;
+        background-image: radial-gradient(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.082), rgba(0, 0, 0, 0.048), rgba(0, 0, 0, 0));
+    }
+
+    .container-home-logo-span {
+        font-family: 'Monoton', cursive;
+        color: rgb(145, 34, 248);
+        font-size: 1rem;
+        border: 5px double rgb(4, 240, 94);
+        background-color: rgba(0, 0, 0, 0.267);
+        padding: 8px;
+    }
+
+
+    .container-home-logo-span:hover {
+        font-size: 1.3rem;
+        background-color: rgba(0, 0, 0, 0.329);
+    }
+}
+
+@media screen and (max-width: 306px) {
+
+    .navbar-brand {
+        font-size: 1rem;
+        margin-bottom: 7px;
+        border: 2px double rgb(4, 240, 94);
+        border-width: 5px;
+    }
+
+    .navbar-brand:hover {
+        font-size: 1.3rem;
+    }
+
+
+    .navbar-search-box {
+        border-bottom-left-radius: 13px;
+        border: 1.5px double rgb(4, 240, 94);
+        border-width: 5px;
+    }
+
+    .navbar-search-btn {
+        font-size: 1rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+        border-top-right-radius: 15px;
+    }
+
+    .first-navbar-2nd-box {
+        font-size: 1rem;
+        height: 2.5rem;
+    }
+
+    .navbar-login-btn {
+        font-size: 1rem;
+        border: 3px double rgb(4, 240, 94);
+        border-width: 5px;
+        margin-top: 5px;
+    }
+
+
+    .navbar-login-icon {
+        font-size: 1.7rem;
+        color: black;
+        margin-top: 5px;
+    }
+
+}
+
+/* media query for responsive header  */
+
+
+
+
+
+
+
+
+/* media query for responsive carousel  */
+
+@media screen and (min-width: 1463px) {
+
+
+    .largeScreen_five_cardCarousel {
+        display: block;
+    }
+
+    .mediumScreen_two_cardCarousel {
+        display: none;
+    }
+
+    .largeScreen_four_cardCarousel {
+        display: none;
+    }
+
+    .mediumScreen_three_cardCarousel {
+        display: none;
+    }
+
+    .smallScreenCardCarousel {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1463px) and (min-width: 980px) {
+
+
+    .largeScreen_five_cardCarousel {
+        display: none;
+    }
+
+    .mediumScreen_two_cardCarousel {
+        display: none;
+    }
+
+    .largeScreen_four_cardCarousel {
+        display: block;
+    }
+
+    .mediumScreen_three_cardCarousel {
+        display: none;
+    }
+
+    .smallScreenCardCarousel {
+        display: none;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: rgb(145, 34, 248);
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 4rem;
+    }
+
+    .card-img-top {
+        height: 20rem;
+    }
+}
+
+
+@media screen and (max-width: 980px) and (min-width: 731px) {
+
+    .largeScreen_five_cardCarousel {
+        display: none;
+    }
+
+    .largeScreen_four_cardCarousel {
+        display: none;
+    }
+
+    .mediumScreen_two_cardCarousel {
+        display: none;
+    }
+
+
+    .mediumScreen_three_cardCarousel {
+        display: block;
+    }
+
+    .smallScreenCardCarousel {
+        display: none;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 4rem;
+    }
+
+    .card-img-top {
+        height: 20rem;
+    }
+}
+
+
+@media screen and (max-width: 731px) and (min-width: 465px) {
+
+    .mediumScreen_two_cardCarousel {
+        display: block;
+    }
+
+
+    .largeScreen_five_cardCarousel {
+        display: none;
+    }
+
+    .largeScreen_four_cardCarousel {
+        display: none;
+    }
+
+
+    .mediumScreen_three_cardCarousel {
+        display: none;
+    }
+
+    .smallScreenCardCarousel {
+        display: none;
+    }
+
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: rgb(145, 34, 248);
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 4rem;
+    }
+
+    .carousel-inner-head {
+        font-size: 25px;
+        height: 55px;
+    }
+
+    .card-body {
+        font-size: 14px;
+    }
+
+    .card-title,
+    .card-item-price {
+        font-size: 18px;
+    }
+
+    .card-cart-btn {
+        font-size: 16px;
+    }
+
+    .image-wrapper {
+        height: 17rem;
+    }
+
+    .image-wrapper img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .footer-comment {
+        font-size: 14px;
+    }
+
+    .footer-link-head {
+        font-size: 18px;
+    }
+
+    .footer-sub-link {
+        font-size: 16px;
+    }
+
+
+}
+
+@media screen and (max-width: 465px) {
+    .smallScreenCardCarousel {
+        display: block;
+    }
+
+
+    .mediumScreen_two_cardCarousel {
+        display: none;
+    }
+
+
+    .largeScreen_five_cardCarousel {
+        display: none;
+    }
+
+    .largeScreen_four_cardCarousel {
+        display: none;
+    }
+
+
+    .mediumScreen_three_cardCarousel {
+        display: none;
+    }
+
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: rgb(145, 34, 248);
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 4rem;
+    }
+
+    .carousel-inner-head {
+        font-size: 22px;
+        height: 50px;
+    }
+
+    .card-body {
+        font-size: 12px;
+    }
+
+    .card-title,
+    .card-item-price {
+        font-size: 16px;
+    }
+
+    .card-cart-btn {
+        font-size: 12px;
+    }
+
+    .image-wrapper {
+        height: 15rem;
+    }
+
+    .image-wrapper img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .footer-comment {
+        font-size: 12px;
+    }
+
+    .footer-link-head {
+        font-size: 16px;
+    }
+
+    .footer-sub-link {
+        font-size: 14px;
+    }
+
+}
+
+/* media query for responsive carousel  */

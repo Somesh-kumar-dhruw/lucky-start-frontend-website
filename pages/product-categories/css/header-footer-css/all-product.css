@@ -1,0 +1,160 @@
+.all-products {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(133, 128, 128);
+}
+
+
+.product-section-title {
+    background-color: rgb(145, 34, 248);
+    border-bottom: 3px solid black;
+}
+
+.products-title-head {
+    color: rgb(145, 34, 248);
+    font-size: 2rem;
+    background-color: black;
+    border: 4px double rgb(21, 255, 0);
+    width: 40rem;
+    padding: 1rem;
+}
+
+
+
+.sub-products-head {
+    color: rgb(145, 34, 248);
+    font-size: 1.7rem;
+    padding: 0.6rem;
+    background-color: black;
+    border: 4px double rgb(21, 255, 0);
+    width: 20rem;
+}
+
+.single-product {
+    margin-bottom: 2rem;
+}
+
+
+.card-body {
+    background-color: black;
+    color: rgb(21, 255, 0);
+    font-size: 0.9rem;
+}
+
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0;
+}
+
+.image-wrapper {
+    background-color: rgb(145, 34, 248);
+}
+
+.card-img-top {
+    height: 18rem;
+    width: 12rem;
+
+}
+
+.card-title {
+    color: rgb(145, 34, 248);
+    font-size: 1.5rem;
+    border: 3px double;
+    padding: 0.3rem 0;
+    border-radius: 0.2rem;
+}
+
+.card-title:hover {
+    background-color: rgb(145, 34, 248);
+    border-color: rgb(145, 34, 248);
+    color: white;
+}
+
+.star {
+    color: yellow;
+}
+
+.card-cart-btn {
+    border: 2px double rgb(145, 34, 248);
+    color: rgb(145, 34, 248);
+    border-width: 3px;
+    font-weight: bold;
+}
+
+
+.card-cart-btn:hover {
+    background-color: rgb(145, 34, 248);
+    color: white;
+}
+
+
+@media screen and (max-width: 772px) and (min-width: 332px) {
+    .products-title-head {
+        color: rgb(145, 34, 248);
+        font-size: 1.5rem;
+        background-color: black;
+        border: 4px double rgb(21, 255, 0);
+        padding: 1rem;
+        width: 20rem;
+    }
+
+    .sub-products-head {
+        color: rgb(145, 34, 248);
+        font-size: 1.3rem;
+        padding: 0.6rem;
+        background-color: black;
+        border: 4px double rgb(21, 255, 0);
+        width: 15rem;
+    }
+    
+    .single-product {
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 332px){
+    .products-title-head {
+        color: rgb(145, 34, 248);
+        font-size: 1.5rem;
+        background-color: black;
+        border: 3px double rgb(21, 255, 0);
+        padding: 0.5rem;
+        width: 13rem;
+        height: 3.5rem;
+    }
+
+    .sub-products-head {
+        color: rgb(145, 34, 248);
+        font-size: 1.3rem;
+        padding: 0.6rem;
+        background-color: black;
+        border: 4px double rgb(21, 255, 0);
+        width: 10rem;
+    }
+    
+    .single-product {
+        margin-bottom: 2rem;
+    }
+
+    .card-img-top {
+        height: 15rem;
+        width: 11rem;
+    
+    }
+
+    .card-body{
+        font-size: 0.6rem;
+        height: 15.5rem;
+    }
+
+    .card-title{
+        font-size: 1.2rem;
+    }
+
+    .card-cart-btn{
+        font-size: 0.8rem;
+    }
+}
